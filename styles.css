@@ -1,0 +1,189 @@
+/* ---------- Own styles ---------- */
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Montserrat:wght@400;500;600&family=Roboto:ital,wght@0,700;1,400&display=swap");
+/* ---------- Body and All formatting ---------- */
+* {
+  /* Display */
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  /* Styles */
+  font-family: 'Figtree',sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+body {
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+  /* Styles */
+  background-color: #f4d04e;
+}
+
+/*************** DESKTOP DISPLAY ***************/
+/* ---------- Card style ---------- */
+#card {
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: left;
+  max-width: 400px;
+  padding: 1rem;
+  /* Styles */
+  background-color: white;
+  border: 0.1rem solid #121212;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 0px -1px #121212;
+  transition: transform 0.3s ease-in-out;
+}
+
+#card:hover {
+  /* Styles */
+  box-shadow: 10px 10px 0px 2px #121212;
+  transform: scale(1.2);
+}
+
+/* ---------- Card image ---------- */
+.card-image {
+  /* Display */
+  width: 100%;
+  /* Styles */
+  border-radius: 1rem;
+}
+
+/* ---------- Card description ---------- */
+.card-description {
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.card-category {
+  /* Display */
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.8rem;
+  /* Styles */
+  background-color: #f4d04e;
+  border: none;
+  border-radius: 0.3rem;
+  font-weight: 800;
+}
+
+.card-category:hover {
+  /* Styles */
+  background-color: #c0990c;
+}
+
+.card-title {
+  /* Display */
+  margin: 1rem 0 0.8rem;
+  /* Styles */
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.card-text {
+  /* Display */
+  margin-bottom: 1rem;
+  /* Styles */
+  color: rgba(128, 128, 128, 0.7);
+}
+
+/* ---------- Card footer ---------- */
+#profile {
+  /* Display */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 0.6rem;
+}
+
+.profile-image {
+  /* Display */
+  width: 30px;
+  height: 30px;
+}
+
+.profile-name {
+  /* Styles */
+  font-weight: 800;
+}
+
+/* ---------- Creator ---------- */
+.attribution {
+  /* Position */
+  position: absolute;
+  bottom: 1.2rem;
+}
+
+/*************** DESKTOP DISPLAY END ***************/
+/*************** MOBILE DISPLAY ***************/
+@media screen and (max-width: 400px) {
+  * {
+    /* Styles */
+    font-size: 10px;
+  }
+  /* ---------- Card style ---------- */
+  #card {
+    /* Display */
+    gap: 1rem;
+    max-width: 250px;
+    padding: 1rem;
+    /* Styles */
+    border: 0.1rem solid #121212;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 0px -1px #121212;
+  }
+  #card:hover {
+    /* Styles */
+    box-shadow: 10px 10px 0px 2px #121212;
+    transform: scale(1.2);
+  }
+  /* ---------- Card image ---------- */
+  .card-image {
+    /* Styles */
+    border-radius: 1rem;
+  }
+  .card-category {
+    /* Display */
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.8rem;
+    /* Styles */
+    border-radius: 0.3rem;
+  }
+  .card-title {
+    /* Display */
+    margin: 1rem 0 0.8rem;
+    /* Styles */
+    font-size: 1.5rem;
+  }
+  .card-text {
+    /* Display */
+    margin-bottom: 1rem;
+  }
+  /* ---------- Card footer ---------- */
+  #profile {
+    /* Display */
+    column-gap: 0.6rem;
+  }
+  .profile-image {
+    /* Display */
+    width: 30px;
+    height: 30px;
+  }
+  /* ---------- Creator ---------- */
+  .attribution {
+    /* Position */
+    position: absolute;
+    bottom: 1.2rem;
+  }
+}
