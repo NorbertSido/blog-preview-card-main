@@ -119,7 +119,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 [issues-shield]: https://img.shields.io/github/issues/NorbertSido/blog-preview-card-main?color=0088ff
 [issues-url]: https://github.com/NorbertSido/blog-preview-card-main/issues
-[license-shield]: https://img.shields.io/github/license/NorbertSido/blog-preview-card-main?color=ffff00
+[license-shield]: https://img.shields.io/github/license/NorbertSido/blog-preview-card-main?color=97CA00
 [license-url]: ./LICENSE.txt
 
 <!-- Social links -->
