@@ -61,7 +61,6 @@
 - Semantic HTML5 markup
 - SCSS
 - Flexbox
-- Mobile-first workflow
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +102,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 <!-- CONTACT -->
 ## Contact
 - Portfolio - [Norbert Sido][portfolio-url]
-- Frontend Mentor - [@NorbertSido][frontend-mentor]
+- Frontend Mentor - [@NorbertSido][frontend-mentor-url]
 - LinkedIn - [@NorbertSido][linkedin-url]
 - Email - [Write me][email-url]
 
