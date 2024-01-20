@@ -20,7 +20,7 @@
   </p>
 
   <p align="center">
-    <a href="#all-demos">View Demo</a>
+    <a href="https://norbertsido.github.io/blog-preview-card-main/">View Demo</a>
     ·
     <a href="https://github.com/NorbertSido/blog-preview-card-main/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Report Bug</a>
     ·
