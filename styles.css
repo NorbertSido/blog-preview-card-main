@@ -80,6 +80,7 @@ body {
 .card-category:hover {
   /* Styles */
   background-color: #c0990c;
+  cursor: pointer;
 }
 
 .card-title {
